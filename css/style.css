@@ -19,6 +19,30 @@
     position: relative;
 }
 
+li.nav-item.dropdown {
+    list-style: none;
+}
+
+i.fas.fa-search {
+    font-size: 1.5rem;
+}
+
+.nav-search {
+    padding-left: 30px;
+    border: none;
+    background-color: transparent;
+    FONT-SIZE: 1.3rem;
+}
+
+button.btn.btn-dark {
+    border-radius: 50px;
+}
+
+a#dropdown03 {
+    font-weight: 600;
+    color: black;
+}
+
  #sony-bar {
      background-color: black;
  }
