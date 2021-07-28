@@ -92,3 +92,14 @@ a#dropdown03 {
     border: 3px solid #0072ce;
     border-radius: 15px;
 }
+
+/* PS5 presentation */
+.title-presentation span {
+    font-size: 0.9rem;
+    color: #0072ce;
+}
+
+.p-presentation p {
+    color: gray;
+    font-size: 1.2rem;
+}
