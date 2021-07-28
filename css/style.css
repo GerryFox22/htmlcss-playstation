@@ -46,3 +46,26 @@ a#dropdown03 {
  #sony-bar {
      background-color: black;
  }
+
+ /* Jumbo 1 */
+
+ .button-orange {
+     background-color: #cd3d0f;
+ }
+
+ .jumbo-banner-logo {
+    width: 60%;
+    padding: 10px;
+}
+
+.jumbo-container h1 {
+    font-size: 2.5rem;
+}
+
+
+ #jumbo-1 {
+    min-height: 600px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+ }
