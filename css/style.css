@@ -126,6 +126,7 @@ a#dropdown03 {
 }
 
 .ps5-elements-hover:hover {
+    cursor: pointer;
     opacity: 1;
     border-bottom: 1px solid #427aa8;
 }
@@ -186,4 +187,36 @@ a#dropdown03 {
 
 .pointer:hover {
     cursor: pointer;
+}
+
+/* Footer */
+
+.ps-footer-container {
+    width: 150px;
+}
+
+.language-icon-container {
+    width: 50px;
+}
+
+.language-text {
+    width: 50%;
+}
+
+.footer-list ul {
+    list-style: none;
+}
+
+.footer-list a {
+    line-height: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+.sie-footer-container {
+    width: 170px;
+}
+
+#footer {
+    background-color: #00439c;
 }
