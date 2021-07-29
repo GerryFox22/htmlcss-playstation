@@ -91,7 +91,7 @@ a#dropdown03 {
     border: 3px solid white
 }
 
-.game-container:hover {
+.games-hover:hover {
     cursor: pointer;
     border: 3px solid #0072ce;
     border-radius: 15px;
@@ -112,5 +112,20 @@ a#dropdown03 {
 
 .button-blue {
     border-color: #0072ce;
-    background-color: #0072ce;
+    background-color: #427aa8;
+}
+
+/* PS5 Components */
+
+.padding-20 {
+    padding: 20px;
+}
+
+.opacity{
+    opacity: 0.7;
+}
+
+.ps5-elements-hover:hover {
+    opacity: 1;
+    border-bottom: 1px solid #427aa8;
 }
