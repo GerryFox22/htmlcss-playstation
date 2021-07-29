@@ -181,3 +181,9 @@ a#dropdown03 {
 #ps-now {
     background-color: #000b4a;
 }
+
+/* Social */
+
+.pointer:hover {
+    cursor: pointer;
+}
