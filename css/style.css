@@ -169,3 +169,15 @@ a#dropdown03 {
 #ps-plus {
     background-color: #bbbbbb;
 }
+
+/* PS NOW */
+
+.button-white-black{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+}
+
+#ps-now {
+    background-color: #000b4a;
+}
