@@ -138,3 +138,13 @@ a#dropdown03 {
     background-position: top;
     background-size: cover;
 }
+
+/* New Games */
+
+.radius-35 {
+    border-radius: 35px;
+}
+
+#new-games {
+    background-color: #1f1f1f;
+}
