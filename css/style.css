@@ -148,3 +148,24 @@ a#dropdown03 {
 #new-games {
     background-color: #1f1f1f;
 }
+
+/* PS PLUS */
+
+.ps-plus-logo-container {
+    width: 50%;
+}
+
+
+.button-white {
+    color: blue;
+    background-color: #dedede;
+    border: 1px solid #dedede;
+}
+
+#text-black {
+    color: black;
+}
+
+#ps-plus {
+    background-color: #bbbbbb;
+}
