@@ -1,0 +1,450 @@
+body {
+    font-family: arial,sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* Sony bar */
+
+.sony-logo {
+    position: absolute;
+    line-height: 36px;
+    width: 90px;
+    right: 0;
+    margin-right: 10px;
+}
+
+.sony-bar-container {
+    text-align: right;
+    height: 36px;
+    position: relative;
+}
+
+li.nav-item.dropdown {
+    list-style: none;
+}
+
+i.fas.fa-search {
+    font-size: 1.5rem;
+}
+
+.nav-search {
+    padding-left: 30px;
+    border: none;
+    background-color: transparent;
+    FONT-SIZE: 1.3rem;
+}
+
+button.btn.btn-dark {
+    border-radius: 50px;
+}
+
+a#dropdown03 {
+    
+    color: black;
+}
+
+ #sony-bar {
+     background-color: black;
+ }
+
+ /* Hover nav bar */
+
+ .hover-navbar-icon img {
+    width: 70px;
+}
+
+::marker {
+    color: blue;
+}
+
+.showme {
+  display: none;
+}
+
+.nav-item.dropdown:hover .showme {
+  display: block;
+}
+
+a#dropdown03 {
+    position: relative;
+}
+section#hover-nav-bar {
+    position: absolute;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.nav-bar-hover-a a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Second Nav Bar */
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+
+/* jumbo 1 */
+
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+   
+  }
+.jumbo1-text {
+    text-align: center;
+    width: 40%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+
+.video-wrap {
+    height: 650px;
+}
+
+.text-gray {
+    color: gray;
+}
+
+#jumbo-1 {
+    position: relative;
+}
+
+/* Spiderman section */
+
+.button-blue {
+    color: white;
+    background-color: #2d64e6;
+    border: #2d64e6;
+}
+
+.youtube-img {
+    position: relative;
+}
+
+.youtube-play {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.youtube-img:hover .youtube-play img{
+    cursor: pointer;
+    color: red;
+}
+
+.youtube-play img {
+    width: 25%;
+}
+
+.p-presentation-small p {
+    font-size: 0.9rem;
+}
+
+/* Media position relative-absolute */
+
+@media (min-width: 576px) {
+    .position-sm-static {
+      position: static !important;
+    }
+    .position-sm-relative {
+      position: relative !important;
+    }
+    .position-sm-absolute {
+        top: 80%;
+        position: absolute !important;
+    }
+    .position-sm-fixed {
+      position: fixed !important;
+    }
+    .position-sm-sticky {
+      position: sticky !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .position-md-static {
+      position: static !important;
+    }
+    .position-md-relative {
+      position: relative !important;
+    }
+    .position-md-absolute {
+        top: 80%;
+        position: absolute !important;
+    }
+    .position-md-fixed {
+      position: fixed !important;
+    }
+    .position-md-sticky {
+      position: sticky !important;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .position-lg-static {
+      position: static !important;
+    }
+    .position-lg-relative {
+      position: relative !important;
+    }
+
+    section#watchdogs-section-container {
+      margin-top: 350px;
+  }
+    .position-lg-absolute {
+      
+       top: 80%;
+       position: absolute !important;
+    }
+    .position-lg-fixed {
+      position: fixed !important;
+    }
+    .position-lg-sticky {
+      position: sticky !important;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .position-xl-static {
+      position: static !important;
+    }
+    .position-xl-relative {
+      position: relative !important;
+    }
+    .position-xl-absolute {
+      top: 80%;
+      position: absolute !important;
+    }
+    .position-xl-fixed {
+      position: fixed !important;
+    }
+    .position-xl-sticky {
+      position: sticky !important;
+    }
+  }
+
+  /* Watch dogs section */
+
+
+  .bg-gray {
+    background-image: linear-gradient(to bottom, rgba(255,255,10,0) 10%, #eee 20%);
+  
+}
+
+  #watchdogs-section-container {
+    background-color: #eee;
+  }
+
+  /* Youtube games video */
+
+@media (min-width: 992px) {
+  section#youtube-games-videos {
+    margin-top: 350px;
+}
+}
+
+  /* Ps4 exclusive */
+
+  #ps4-exclusive {
+    background-color: #eee;
+  }
+
+  /* Indie Games */
+
+  .button-white {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+  }
+
+  #indie-games {
+    background-image: url(../img/indie-jumbo.jpg); 
+    background-size: cover;
+   }
+
+   /* PSVR Games */
+
+   .height-650 {
+     height: 650px;
+   }
+
+   #psvr-games {
+     min-height: 650px;
+     background-image: url(../img/game-hero-jumbo.jpg);
+     background-size: cover;
+   }
+
+   .button-black-bluetext {
+     background-color: rgba(33,36,41,.9);
+     border: 1px solid rgba(33,36,41,.9);
+     color: #00b0ff;
+   }
+
+   @media (max-width: 768px) {
+    #psvr-games {
+     
+      background-image: url(../img/game-hero-jumbo-sm.jpg);
+      background-size: cover;
+    }
+
+    .height-650 {
+    padding-top: 300px;
+    height: 0;
+    }
+ 
+    }
+    
+    /* Games guide */
+
+    #games-guide {
+      background-color: #1F1F1F;
+    }
+
+    /* Free ps4 games */
+
+    #free-ps4-games {
+      background-color: #eee;
+    }
+
+    /* Playstation Hits */
+
+
+
+    #playstation-hits {
+      background-position: center;
+      background-size: cover;
+      background-image: url(../img/hits-background.jpg);
+    }
+
+    @media (max-width: 768px) {
+
+      #playstation-hits {
+        background-position: center;
+        background-size: cover;
+        background-image: url(../img/hits-background-small.jpg);
+      }
+  
+    }
+
+    /* Creative games */
+
+    
+
+    #creative-games {
+
+    
+      background-size: cover;
+      background-image: url(../img/creative-jumbo-new.jpg);
+    }
+
+
+
+    @media (min-width: 1200px) {
+
+      #creative-games {
+        min-height: 900px;
+        
+      }
+
+      .position-lg-absolute-end {
+        left: 20%;
+        right: 20%;
+        top: 80%;
+        position: absolute !important;
+      }
+
+    }
+
+    /* PS Plus and PS Now */
+
+    .ps-logo-container.mb-4 {
+      margin: auto;
+      width: 20%;
+  }
+
+
+    #psplus-psnow {
+      background-color: #eee;
+    }
+
+    /* Ps5  */
+
+    .padding-t {
+      padding-top: 80px;
+    }
+
+    #ps5 {
+      min-height: 400px;
+      background-size: cover;
+      background-image: url(../img/ps5-jumbo.jpg);
+    }
+
+    @media (max-width: 768px) {
+
+      #ps5 {
+        background-image: url(../img/ps5-jumbo-small.jpg);
+        background-size: cover;
+       }
+
+       .padding-t {
+         padding-top: 220px;
+       }
+
+    }
+
+    /* Footer */
+
+    .ps-footer-container {
+      width: 150px;
+    }
+
+    .language-icon-container {
+      width: 50px;
+    }
+
+    .language-text {
+      width: 50%;
+    }
+
+    .footer-list ul {
+      list-style: none;
+    }
+
+    .footer-list a {
+      line-height: 35px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .sie-footer-container {
+      width: 170px;
+    }
+
+    #footer {
+      background-color: #00439c;
+    }
+      
+
+  
+
